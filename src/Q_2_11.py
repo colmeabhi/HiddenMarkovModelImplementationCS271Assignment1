@@ -52,8 +52,8 @@ if __name__ == "__main__":
     v_state = vowelStateIndex(B2)
     print("[2.11b] vowel-like state index:", v_state)
 
-    text_for_A = sampleFromText(corpus, 300000)
-    A26 = bigramAFromCorpus(text_for_A, add_k=5)
+    textForA = sampleFromText(corpus, 300000)
+    A26 = bigramAFromCorpus(textForA, add_k=5)
 
     O1k = O[:1000]
     init = initRandom(26, 26, seed=3)
@@ -61,8 +61,8 @@ if __name__ == "__main__":
     A_fixed = A26.copy()
 
     res2 = baumWelch(O1k, A_fixed, B26, pi26, iters=200, tol=1e-6, freeze_A=True)
-    A_learned = res2[0]; B_learned = res2[1]; pi_learned = res2[2]
+    Alearned = res2[0]; BLearned = res2[1]; pi_learned = res2[2]
 
-    mapping = keyFromB(B_learned)
+    mapping = keyFromB(BLearned)
     acc = fractionCorrect(mapping, k)
-    print("[2.11d] inferred key accuracy:", round(acc, 4))
+    print("[2.11d] key accuracy:", round(acc, 4))
