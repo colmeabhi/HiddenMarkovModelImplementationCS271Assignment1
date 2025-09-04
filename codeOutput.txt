@@ -1,0 +1,21 @@
+Code Output:
+
+abhishekahirrao@Abhisheks-MacBook-Pro CS-271-Assignment-1 % python3 src/Q_2_1.py 
+P(O) by Bruteforce solving: 0.02488
+P(O) by forward    : 0.02488
+op counts, bf vs forward: 24 vs 18
+
+abhishekahirrao@Abhisheks-MacBook-Pro CS-271-Assignment-1 % python3 src/Q_2_3.py 
+sum P(O) by Bruteforce solving: 1.0
+sum P(O) by forward    : 1.0
+Checks passed.
+
+abhishekahirrao@Abhisheks-MacBook-Pro CS-271-Assignment-1 % python3 src/Q_2_10.py 
+N = 2 final logP = -285.99 chars = 109
+N = 3 final logP = -280.58 chars = 109
+N = 4 final logP = -265.48 chars = 109
+N = 27 final logP = -142.0 chars = 109
+
+abhishekahirrao@Abhisheks-MacBook-Pro CS-271-Assignment-1 % python3 src/Q_2_11.py 
+[2.11b] vowel-like state index: 0
+[2.11d] inferred key accuracy: 0.7692
