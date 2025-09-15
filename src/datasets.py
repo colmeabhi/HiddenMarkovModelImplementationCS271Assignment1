@@ -8,7 +8,7 @@ IDX = {ch: i for i, ch in enumerate(ALPHABET)}
 def cleanLowerAlpha(text):
     return re.sub(r'[^a-z]', '', text.lower())
 
-def load_clean_text(path):
+def loadCleanText(path):
     f = open(path, "r", encoding="utf-8", errors="ignore")
     raw = f.read()
     f.close()

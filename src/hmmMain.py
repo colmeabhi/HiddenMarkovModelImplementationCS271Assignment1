@@ -1,6 +1,5 @@
 import numpy as np
 
-# 
 def normalizeRows(X):
     X = X.astype(float, copy=True)
     s = X.sum(axis=1, keepdims=True)

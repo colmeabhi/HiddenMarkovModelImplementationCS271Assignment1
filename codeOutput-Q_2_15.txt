@@ -1,0 +1,44 @@
+abhishekahirrao@Abhisheks-MacBook-Pro CS-271-Assignment-1 % python3 src/Q_2_15.py 
+[info] N=26, M=53, T=408, restarts=1000, iters=200, freeze_A=True
+ : 100/1000 restarts done (best=0.3701)
+ : 200/1000 restarts done (best=0.3701)
+ : 300/1000 restarts done (best=0.3701)
+ : 400/1000 restarts done (best=0.3701)
+ : 500/1000 restarts done (best=0.3701)
+ : 600/1000 restarts done (best=0.3701)
+ : 700/1000 restarts done (best=0.3701)
+ : 800/1000 restarts done (best=0.3701)
+ : 900/1000 restarts done (best=0.3701)
+ : 1000/1000 restarts done (best=0.3701)
+[done] best accuracy = 0.3701 over 1000 restarts in toim 32317.6s
+best_acc (percent): 37.01
+
+abhishekahirrao@Abhisheks-MacBook-Pro CS-271-Assignment-1 % python3 src/Q_2_15.py 
+[info] N=26, M=53, T=408, restarts=10000, iters=200, freeze_A=True
+ : 1000/10000 restarts done (best=0.3724)
+ : 2000/10000 restarts done (best=0.3810)
+ : 3000/10000 restarts done (best=0.3896)
+ : 4000/10000 restarts done (best=0.3942)
+ : 5000/10000 restarts done (best=0.3987)
+ : 6000/10000 restarts done (best=0.4015)
+ : 7000/10000 restarts done (best=0.4069)
+ : 8000/10000 restarts done (best=0.4098)
+ : 9000/10000 restarts done (best=0.4117)
+ : 10000/10000 restarts done (best=0.4128)
+[done] best accuracy = 0.4128 over 10000 restarts in toim 189431.2s
+best_acc (percent): 41.28
+
+abhishekahirrao@Abhisheks-MacBook-Pro CS-271-Assignment-1 % python3 src/Q_2_15.py 
+[info] N=26, M=53, T=408, restarts=100000, iters=200, freeze_A=True
+ : 10000/100000 restarts done (best=0.3768)
+ : 20000/100000 restarts done (best=0.3899)
+ : 30000/100000 restarts done (best=0.3962)
+ : 40000/100000 restarts done (best=0.4021)
+ : 50000/100000 restarts done (best=0.4107)
+ : 60000/100000 restarts done (best=0.4215)
+ : 70000/100000 restarts done (best=0.4322)
+ : 80000/100000 restarts done (best=0.4388)
+ : 90000/100000 restarts done (best=0.4431)
+ : 100000/100000 restarts done (best=0.4465)
+[done] best accuracy = 0.4465 over 100000 restarts in toim 381312.6s
+best_acc (percent): 44.65

@@ -1,7 +1,7 @@
 import random
 import numpy as np
 from hmmMain import initRandom, baumWelch
-from datasets import load_clean_text, encode, shiftText, bigramAFromCorpus, ALPHABET, IDX
+from datasets import loadCleanText, encode, shiftText, bigramAFromCorpus, ALPHABET, IDX
 
 def sampleFromText(text, L):
     if len(text) >= L:
@@ -39,7 +39,7 @@ def fractionCorrect(mapping, shift_k):
 
 if __name__ == "__main__":
     rng = random.Random(7)
-    corpus = load_clean_text("BrownCorpus.txt")
+    corpus = loadCleanText("BrownCorpus.txt")
 
     plaintext = sampleFromText(corpus, 50000)
     k = rng.randrange(26)
