@@ -154,7 +154,7 @@ if __name__ == "__main__":
         corpus_path="BrownCorpus.txt",
         restarts=1000,        
         iters=30,           # 200 for 2.15, changed this for character generation to 30
-        freeze_A=True, # False for all other questions except 2.15 (a) - first run
+        freeze_A=True,      # False for all other questions except 2.15 (a) - first run
         bigram_chars=25000, # 100,000 for 2.15, changed this for character generation to 25000
     )
     print("best_acc (percent):", round(out["best_acc"] * 100, 2))

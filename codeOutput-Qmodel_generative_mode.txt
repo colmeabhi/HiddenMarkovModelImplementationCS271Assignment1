@@ -1,0 +1,16 @@
+abhishekahirrao@Abhisheks-MacBook-Pro CS-271-Assignment-1 % python3 src/Q_model_generative_mode.py        
+Problem 2.15(d): HMM Text Generation
+==================================================
+
+Training HMM with N=4 states
+Final log-likelihood: -266892.20
+Generated text (N=4):
+'eiwontsacmeodarunantogredanoncionenpheronadentercuiwiltantrirpsapthaeceilsatertrocetuntayromideesdte'
+
+Training HMM with N=8 states
+Final log-likelihood: -259543.79
+Generated text (N=8):
+'eturmutheisteboxlammspohebistcerthingartedalmonidwowogunesopiemanunctemegictnortucsowisbytonthelsasj'
+
+Yes there is an improvement in the second state as seen in the log-likelihood improvement.
+But the text produced is still not coherent.
