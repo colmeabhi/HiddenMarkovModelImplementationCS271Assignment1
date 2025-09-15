@@ -40,5 +40,7 @@ abhishekahirrao@Abhisheks-MacBook-Pro CS-271-Assignment-1 % python3 src/Q_2_15.p
  : 80000/100000 restarts done (best=0.4388)
  : 90000/100000 restarts done (best=0.4431)
  : 100000/100000 restarts done (best=0.4465)
-[done] best accuracy = 0.4465 over 100000 restarts in toim 381312.6s
+[done] best accuracy = 0.4465 over 100000 restarts in toim 281312.6s
 best_acc (percent): 44.65
+
+Did not do the last part of the question with 1,000,000 random restarts. 100,000 random restarts took almost 2.5 days.
